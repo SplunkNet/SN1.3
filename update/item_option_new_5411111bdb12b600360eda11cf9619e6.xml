@@ -32,7 +32,7 @@
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
-        <macro display_value="ADManager Login">feb4495bdbde7600360eda11cf961922</macro>
+        <macro display_value="ADManagerLogin">feb4495bdbde7600360eda11cf961922</macro>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>

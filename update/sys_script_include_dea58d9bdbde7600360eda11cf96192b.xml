@@ -551,6 +551,7 @@ ADManagerAPIUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
 			sm.setStringParameter('HANDSHAKE_KEY', this.getHandshakeKey());
 			sm.setHttpTimeout(30000); //In milliseconds. Wait at most 10 seconds for response from http request.
 			var response = sm.execute();//Might throw exception if http connection timed out or some issue with sending request itself because of encryption/decryption of password.
+			
 			responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
 			responseCode = response.getStatusCode();
 		} catch(ex) {
@@ -604,7 +605,7 @@ ADManagerAPIUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_created_on>2017-04-28 09:49:04</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>dea58d9bdbde7600360eda11cf96192b</sys_id>
-        <sys_mod_count>79</sys_mod_count>
+        <sys_mod_count>82</sys_mod_count>
         <sys_name>ADManagerAPIUtil</sys_name>
         <sys_package display_value="ADManager Plus" source="x_manen_admanager">f61bfc1fdb9e7600360eda11cf961902</sys_package>
         <sys_policy>protected</sys_policy>
@@ -612,6 +613,6 @@ ADManagerAPIUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, 
         <sys_scope display_value="ADManager Plus">f61bfc1fdb9e7600360eda11cf961902</sys_scope>
         <sys_update_name>sys_script_include_dea58d9bdbde7600360eda11cf96192b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-05 10:47:54</sys_updated_on>
+        <sys_updated_on>2018-10-08 13:24:27</sys_updated_on>
     </sys_script_include>
 </record_update>

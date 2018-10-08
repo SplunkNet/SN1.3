@@ -22,7 +22,7 @@ ADManagerCommonUtil.prototype = Object.extendsObject(global.AbstractAjaxProcesso
 		if(!this.checkServerCompatibility())
 		{
 			requestDetails.status = 'false';
-			requestDetails.responseBody = 'To use this feature, upgrade ADManager Plus server to 6591 or later versions. Contact support@admanagerplus.com to upgrade.';
+			requestDetails.responseBody = 'To use this feature, upgrade ADManager Plus server to ADManagerCommonUtil or later versions. Contact support@admanagerplus.com to upgrade.';
 			return new global.JSON().encode(requestDetails);
 		}
 		if(new ADManagerServerDetails().isServerConfigured()) // To check wheather the server is configured / not.
@@ -65,7 +65,7 @@ ADManagerCommonUtil.prototype = Object.extendsObject(global.AbstractAjaxProcesso
 		if(!this.checkServerCompatibility())
 		{
 			formData.status = 'false';
-			formData.responseBody = 'To use this feature, upgrade ADManager Plus server to 6591 or later versions. Contact support@admanagerplus.com to upgrade.';
+			formData.responseBody = 'To use this feature, upgrade ADManager Plus server to ADManagerCommonUtil or later versions. Contact support@admanagerplus.com to upgrade.';
 			return new global.JSON().encode(formData);
 		}
 		if(new ADManagerServerDetails().isServerConfigured()) 
@@ -86,7 +86,7 @@ ADManagerCommonUtil.prototype = Object.extendsObject(global.AbstractAjaxProcesso
 	checkServerCompatibility: function()
 	{
 		var build_number = new ADManagerServerDetails().getProductVersion();
-		if(build_number != null  && build_number >= 6591)
+		if(build_number != null  && build_number >= 6630)
 		{
 			return true;
 		}
@@ -103,7 +103,7 @@ ADManagerCommonUtil.prototype = Object.extendsObject(global.AbstractAjaxProcesso
         <sys_created_on>2017-04-28 09:50:16</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>0bf505dbdbde7600360eda11cf96197d</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>ADManagerCommonUtil</sys_name>
         <sys_package display_value="ADManager Plus" source="x_manen_admanager">f61bfc1fdb9e7600360eda11cf961902</sys_package>
         <sys_policy>protected</sys_policy>
@@ -111,6 +111,6 @@ ADManagerCommonUtil.prototype = Object.extendsObject(global.AbstractAjaxProcesso
         <sys_scope display_value="ADManager Plus">f61bfc1fdb9e7600360eda11cf961902</sys_scope>
         <sys_update_name>sys_script_include_0bf505dbdbde7600360eda11cf96197d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-06 07:39:43</sys_updated_on>
+        <sys_updated_on>2018-10-08 14:00:40</sys_updated_on>
     </sys_script_include>
 </record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_producer">
     <sc_cat_item_producer action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <availability>on_desktop</availability>
         <billable>false</billable>
         <can_cancel>false</can_cancel>
@@ -54,7 +54,7 @@
         <sys_created_on>2018-10-05 12:36:49</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>0376991cdbcd6f40360eda11cf961947</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Remove Folder Permissions</sys_name>
         <sys_package display_value="ADManager Plus" source="x_manen_admanager">f61bfc1fdb9e7600360eda11cf961902</sys_package>
         <sys_policy/>
@@ -62,7 +62,7 @@
         <sys_scope display_value="ADManager Plus">f61bfc1fdb9e7600360eda11cf961902</sys_scope>
         <sys_update_name>sc_cat_item_producer_0376991cdbcd6f40360eda11cf961947</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-08 06:59:07</sys_updated_on>
+        <sys_updated_on>2018-10-08 15:33:29</sys_updated_on>
         <table_name>incident</table_name>
         <template/>
         <type>item</type>
@@ -112,4 +112,42 @@
         <table>sc_cat_item_producer</table>
         <type>calculated</type>
     </fx_price>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffffff</average_image_color>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <image_height>29</image_height>
+        <image_width>41</image_width>
+        <size_bytes>1181</size_bytes>
+        <size_compressed>1204</size_compressed>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 13:39:24</sys_created_on>
+        <sys_id>6fe10d11db852380360eda11cf9619b5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 13:39:24</sys_updated_on>
+        <table_name>ZZ_YYsc_cat_item_producer</table_name>
+        <table_sys_id>0376991cdbcd6f40360eda11cf961947</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="6fe10d11db852380360eda11cf9619b5">6fe10d11db852380360eda11cf9619b5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 13:39:24</sys_created_on>
+        <sys_id>afe10d11db852380360eda11cf9619b5</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AZ0EYvuJUE5HDQoaCgAAAA1JSERSAAAAKQAAAB0IAgAAALjp0hoAAAABc1JHQgCuzhzpAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwwAADsMBx2+oZAAABDJJREFUSEvll1korVEUxw+OWdwMiYjkxZAMkSGS+UUUGYuSQpQhUUSE8ka8SSHkgSRjiIyZXgyZCZkyPBiuebr/e9Y+A1+cc3LLw/09HHutvb9v7b2m/VF4e3vj/RCK7O9PID73yMjI/Py8iooKiVweHx/d3d1dXFyY/G3EtgsKCurq6u7v719eXkjzAT6f7+zs3NLSoqOjw1TfBLaJkpISAwOD8/Pz29vb3xyenp7q6+vNzc2rq6vZA9/mnW1dXd3n52cmc4BLUlJSjI2NDw4OmOp78NnxhcDhSkpKTHiPqqpqbGzszMxMXl5eYmLi3d0dm/gceMvW1tbMzIzJH2B7EJ774eGByZ+Qm5uL0PySASwDtbW17EkOH88tlZycnMjISAUFBSZLACXyUU1NDcUCJ62uroaFhWloaLBpDnLbhm8AEzicnZ21traOjo7u7++rq6ujLk5OTm5ubjQ1NdkKCf5Zb9nb28vKyvLz8xscHHRyckpPT09ISPDw8BgYGHB1dS0vL0eqsqUimO9li/fp6Sne1dfXt7u7y1QC1tfXPT09o6KipqammEqC3t5eb29vROri4oKpBMhh++joKDMz09LSEnkbExODcJIe1e/v75+cnHx5eUkaLng2ICAgNTVV8v1y2EYgYbWtrW1tbc3IyAjrSY/Md3NzozG8srm5SWNiaGhoeXkZg52dHUdHx4aGBtIDOeKNBEb6wL1zc3PoAYqKf5+Fpe7u7oqKCoxxHRQVFUVERGxtbQme4PX09KSlpaE04Bv0RLSmjo4OBI5mZT334eEhvIokQuLgNykpCd0X+pqaGmhoDejv74eIuGxsbHR2dlpYWAQGBoo8gYGXlxcuLRJlqjGco7CwEAFGvO3s7F5fX+3t7UXnxpiWAQQVLikrK4uOjsbbscvi4mJshWa1tbXRbVB1JEr3+eLiIgoGvxkZGXFxcbCEsJFhgIsVsaAx4evra2NjAyfjasBWrKys2ASPR5HCIyRKtz0+Pj47O4vH8CsOlRDcp9fX10wQgOtucnISPVVLS6uxsXFiYoJN8HjYDTo8koZE6bZRGNnZ2VdXV6hOZAPTCrG2tsaeaAwnV1VVweGwOj09jU3gOkZmoNvQAmwdWWJqakqirLmG/ETnYoIEaKL0QYHxyspKUFBQeHg4NkqzCwsL6HS4/bAJiKiC+Ph4hINm5ajvz6isrEQSHB8fY4wyo4EIJArd92NjY0i9rq4u0oN/YBvgZCEhIahDJnNYWlqC4dLSUiYL+BjvL74Vv6CpqcnQ0BA7aG9vZyohKEh8ZoWGhvr4+OTn5zOtAPG3IoKB7EAqfvat+AWoAj09PdQxuh5EBwcHExMTvGp7exsNWF9fH586SAVaLEJsu7m5eXh4GHe+SCMv2DS+5hA4hBwNRFlZGVbR5oKDg9mK9/yv/5f8nG0e7w9hfx4Dd0cBEAAAAABJRU5ErkJggkQFojedBAAA</data>
+        <length>1592</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="6fe10d11db852380360eda11cf9619b5">6fe10d11db852380360eda11cf9619b5</sys_attachment>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 13:39:24</sys_created_on>
+        <sys_id>23e10d11db852380360eda11cf9619b6</sys_id>
+    </sys_attachment_doc>
 </record_update>

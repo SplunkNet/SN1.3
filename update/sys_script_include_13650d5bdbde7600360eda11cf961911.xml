@@ -83,7 +83,7 @@ ADManagerDomainListHandler.prototype = Object.extendsObject(global.AbstractAjaxP
 		{
 			var requestDetails  = {};
 			requestDetails.status = 'false';
-			requestDetails.responseBody = 'To use this feature, upgrade ADManager Plus server to 6591 or later versions. Contact support@admanagerplus.com to upgrade.';
+			requestDetails.responseBody = 'To use this feature, upgrade ADManager Plus server to 6630 or later versions. Contact support@admanagerplus.com to upgrade.';
 			return new global.JSON().encode(requestDetails);
 		}
 		
@@ -120,7 +120,7 @@ ADManagerDomainListHandler.prototype = Object.extendsObject(global.AbstractAjaxP
         <sys_created_on>2017-04-28 09:47:59</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>13650d5bdbde7600360eda11cf961911</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name> ADManagerDomainListHandler</sys_name>
         <sys_package display_value="ADManager Plus" source="x_manen_admanager">f61bfc1fdb9e7600360eda11cf961902</sys_package>
         <sys_policy>protected</sys_policy>
@@ -128,6 +128,6 @@ ADManagerDomainListHandler.prototype = Object.extendsObject(global.AbstractAjaxP
         <sys_scope display_value="ADManager Plus">f61bfc1fdb9e7600360eda11cf961902</sys_scope>
         <sys_update_name>sys_script_include_13650d5bdbde7600360eda11cf961911</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-10-06 07:39:53</sys_updated_on>
+        <sys_updated_on>2018-10-08 14:01:17</sys_updated_on>
     </sys_script_include>
 </record_update>

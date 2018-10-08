@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="item_option_new">
     <item_option_new action="INSERT_OR_UPDATE">
-        <active>false</active>
+        <active>true</active>
         <attributes/>
         <cat_item display_value="Set Folder Permissions">a21a919cdbcd6f40360eda11cf961975</cat_item>
         <category/>
@@ -61,7 +61,7 @@
         <sys_created_on>2018-10-05 12:51:05</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>e61a51dcdbcd6f40360eda11cf961912</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Set Folder Permissions Advanced</sys_name>
         <sys_package display_value="ADManager Plus" source="x_manen_admanager">f61bfc1fdb9e7600360eda11cf961902</sys_package>
         <sys_policy/>
@@ -69,11 +69,11 @@
         <sys_scope display_value="ADManager Plus">f61bfc1fdb9e7600360eda11cf961902</sys_scope>
         <sys_update_name>item_option_new_e61a51dcdbcd6f40360eda11cf961912</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-05 12:51:05</sys_updated_on>
+        <sys_updated_on>2018-10-08 11:41:06</sys_updated_on>
         <table/>
         <tooltip/>
         <type>15</type>
-        <ui_page/>
+        <ui_page display_value="ADManagerFSMAdvanced">efe27494db8d6f40360eda11cf961932</ui_page>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <variable_name/>

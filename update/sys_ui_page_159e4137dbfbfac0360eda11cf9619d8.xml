@@ -16,7 +16,7 @@ function openGroupListPopup(groupListType){
 	else if(groupListType == 3)
 		selectedGroups = primaryGroup;
 
-	var dialog = new GlideDialogWindow("x_manen_admanager_ADManager Group List");   
+	var dialog = new GlideDialogWindow("x_manen_admanager_ADManagerGroupList");   
 	dialog.setTitle("Select Group");   
 	dialog.setSize(750,400);
 	dialog.setPreference("domainName", g_form.getValue('Select_Domain')); //Pass in a short description for use in the dialog
@@ -362,7 +362,7 @@ function toggleRemoveGroupsField(isRemoveFromAllGroups)
         <sys_created_on>2017-07-13 13:19:13</sys_created_on>
         <sys_customer_update>true</sys_customer_update>
         <sys_id>159e4137dbfbfac0360eda11cf9619d8</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>ADManagerGroupMembership</sys_name>
         <sys_package display_value="ADManager Plus" source="x_manen_admanager">f61bfc1fdb9e7600360eda11cf961902</sys_package>
         <sys_policy>protected</sys_policy>
@@ -370,6 +370,6 @@ function toggleRemoveGroupsField(isRemoveFromAllGroups)
         <sys_scope display_value="ADManager Plus">f61bfc1fdb9e7600360eda11cf961902</sys_scope>
         <sys_update_name>sys_ui_page_159e4137dbfbfac0360eda11cf9619d8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-05 14:12:08</sys_updated_on>
+        <sys_updated_on>2018-10-08 10:14:28</sys_updated_on>
     </sys_ui_page>
 </record_update>

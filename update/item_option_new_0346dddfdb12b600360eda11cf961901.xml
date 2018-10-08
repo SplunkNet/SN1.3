@@ -32,7 +32,7 @@
         <lookup_table/>
         <lookup_unique>false</lookup_unique>
         <lookup_value/>
-        <macro display_value="ADManager Reset Password">c405c51bdbde7600360eda11cf96198e</macro>
+        <macro display_value="ADManagerResetPassword">c405c51bdbde7600360eda11cf96198e</macro>
         <mandatory>false</mandatory>
         <map_to_field>false</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
